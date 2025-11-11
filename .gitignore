@@ -1,10 +1,54 @@
-# Python-generated files
+# -----------------------------
+# Python / uv project ignores
+# -----------------------------
+
+# Byte-compiled / cache files
 __pycache__/
-*.py[oc]
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments (if any local venvs are used)
+.venv/
+venv/
+env/
+
+# uv build / cache directories (safe for all users)
+.uv/
+
+# Distribution / packaging
 build/
 dist/
-wheels/
-*.egg-info
+*.egg-info/
 
-# Virtual environments
-.venv
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs, data dumps, and temp files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# macOS / system
+.DS_Store
+.AppleDouble
+.Trashes
+
+# IDE / editor settings
+.vscode/
+.idea/
+
+# -----------------------------
+# Project-specific ignores
+# -----------------------------
+
+# Large or generated data
+data/raw/
+data/processed/
+
+# Temporary experiments or figures
+notebooks/.ipynb_checkpoints/
+notebooks/tmp_*/
+
